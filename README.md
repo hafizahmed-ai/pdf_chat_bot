@@ -1,9 +1,9 @@
-# Chat with PDF and DOC using OpenAI
+# Chat Bot for Chat with PDF and DOC using OpenAI
 
 <img src="./art/demo.gif?raw=true">
 
 ## Overview:
-This project provides a simple and user-friendly chatbot capable of answering questions and extracting information from PDF and DOC files using the OpenAI language model. The chatbot is powered by the OpenAI API, allowing it to understand natural language queries and respond with relevant content from the documents.
+This initiative offers an accessible and straightforward chatbot designed to respond to inquiries and retrieve data from PDF and DOC documents through the OpenAI language model. Utilizing the OpenAI API, the chatbot is equipped to interpret queries phrased in natural language and supply pertinent information extracted from the documents.
 
 ## Features:
 - Interactive chatbot interface
@@ -12,7 +12,7 @@ This project provides a simple and user-friendly chatbot capable of answering qu
 
 ## Installation:
 1. Clone the repository:
-```git clone https://github.com/yossilevi94/chat-with-pdf.git```
+```git clone https://github.com/Hafi25/pdf_chat_bot.git```
 ```cd chat-with-pdf```
 
 2. Install dependencies:
@@ -21,10 +21,5 @@ This project provides a simple and user-friendly chatbot capable of answering qu
 3. Start the Streamlit app:
 ```streamlit run chatbot.py```
 
-## License:
-This project is licensed under the MIT License.
-
 ## Acknowledgments:
 - This project uses the [OpenAI API](https://openai.com) for natural language processing.
-
-Feel free to use this project.

@@ -145,13 +145,6 @@ def handel_userinput(user_question):
                 message(messages.content, key=str(i))
         st.write(f"Total Tokens: {cb.total_tokens}" f", Prompt Tokens: {cb.prompt_tokens}" f", Completion Tokens: {cb.completion_tokens}" f", Total Cost (USD): ${cb.total_cost}")
 
-                 # for i, message in enumerate(st.session_state.chat_history):
-    #     if i % 2 == 0:
-    #         st.write(user_template.replace("{{MSG}}",message.content),unsafe_allow_html=True)
-    #     else:
-    #         st.write(bot_template.replace("{{MSG}}",message.content),unsafe_allow_html=True)
-
-
 
 
 
